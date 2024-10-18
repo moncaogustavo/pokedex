@@ -1,22 +1,3 @@
-'''
-ENUNCIADO:
-
-ESCOLHER ALGUMA TABELA NO SEU ORACLE
-E CONSTRUIR NO PYTHON O MENU:
-    
-    0 - SAIR
-    1 - CADASTRAR
-    2 - LISTAR/EXPORTAR   --> DEPOIS DE LISTAR, GERAR A PLANILHA.
-
-V2. - GERAR A PLANILHA COM O NOME NO FORMATO:
-    planilhaAnoMesDiaHoraMinSeg.xlsx
-        exemplo: planilha20241018103642.xlsx
-
-V3. - ANTES DE LISTAR OU GERAR A PLANILHA,
-    ESCOLHER OS CAMPOS QUE SERÃO APRESENTADOS.
-    DEPOIS IMPORTAR/LISTAR
-'''
-
 import os
 from datetime import datetime
 import pandas as pd
